@@ -1,41 +1,38 @@
 {
-  "schemaVersion": "v0.1",
-  "isConfigured": true,
-  "organizationName": "Your Organization",
-  "toolName": "Metadata Tool",
-  "zones": [
-    "Raw",
-    "Work",
-    "Production"
-  ],
-  "roles": [
-    "Author",
-    "Custodian",
-    "Distributor",
-    "Originator",
-    "Owner",
-    "Point of contact",
-    "Principal investigator",
-    "Processor",
-    "Publisher",
-    "Resource provider",
-    "User"
-  ],
-  "processingLevels": [
-    "Unknown",
-    "Measured",
-    "Calculated",
-    "Modeled"
-  ],
-  "geometries": [
-    {
-      "name": "Washington State",
-      "geojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-124.82666015624999,45.55252525134013],[-117.02636718749999,45.55252525134013],[-117.02636718749999,49.009050809382046],[-124.82666015624999,49.009050809382046],[-124.82666015624999,45.55252525134013]]]}"
-    },
-    {
-      "name": "Pacific Northwest",
-      "geojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-124.78271484375,42.00032514831621],[-111.07177734375,42.00032514831621],[-111.07177734375,48.99463598353405],[-124.78271484375,48.99463598353405],[-124.78271484375,42.00032514831621]]]}"
-    }
+	  "schemaVersion": "v0.1",
+	  "isConfigured": true,
+	  "organizationName": "Grassland Soil and Water Research Laboratory | USDA-ARS-LTAR Texas Gulf",
+	  "toolName": "Metadata Tool",
+	  "zones": [
+	    "Raw",
+	    "Work",
+	    "Production"
+	  ],
+	  "roles": [
+	    "Author",
+	    "Custodian",
+	    "Distributor",
+	    "Originator",
+	    "Owner",
+	    "Point of contact",
+	    "Principal investigator",
+	    "Processor",
+	    "Publisher",
+	    "Resource provider",
+	    "User"
+	  ],
+	  "processingLevels": [
+	    "Unknown",
+	    "Measured",
+	    "Calculated",
+	    "Modeled"
+	  ],
+	  "geometries": [
+	    {
+	      "name": "Texas State",
+	      "geojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-107.05078125,25.443274612305746],[-93.2958984375,25.443274612305746],[-93.2958984375,36.98500309285596],[-107.05078125,36.98500309285596],[-107.05078125,25.443274612305746]]]}"
+	    }
+
   ],
   "tags": [
     "[ISO]farming",
